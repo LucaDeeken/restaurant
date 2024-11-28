@@ -15,10 +15,6 @@ menuButton.addEventListener("click", () => {
     drinksButton.addEventListener("click", () => {
         getDrinks();
     });
-    const mealsButton = document.getElementById("meals");
-    mealsButton.addEventListener("click", () => {
-        getMenu();
-    });
 
 })
 
